@@ -1,37 +1,3 @@
-// import React from 'react'
-
-// const CareerGoals = () => {
-//   return (
-//     <div>
-//         <section id="career-goals" className="p-10 ">
-//   <h2 className="text-3xl font-bold text-center mb-6 text-blue-600">Career Goals</h2>
-  
-//   <div className="relative">
-//     <div className="absolute left-0 top-0 h-full w-1 bg-blue-600"></div>
-    
-//     <div className="pl-8">
-//       <p className="mb-4 text-lg text-blue-100">
-//         " My ultimate goal is to become a proficient full-stack developer who can tackle complex challenges and contribute to impactful projects. I aim to constantly improve my skills in both front-end and back-end development.
-//       </p>
-
-//       <p className="mb-4 text-lg text-blue-100">
-//         In the short term, I am focused on mastering the Reactjs, particularly honing my skills in React and Next.js, and building responsive, user-friendly web applications.
-//       </p>
-
-//       <p className="mb-4 text-lg text-blue-100">
-//         I also aspire to collaborate with like-minded professionals in a dynamic environment where I can contribute to meaningful projects and continue to grow as a developer. "
-//       </p>
-      
-//     </div>
-//   </div>
-// </section>
-
-//     </div>
-//   )
-// }
-
-// export default CareerGoals
-
 import React, { useState } from 'react';
 
 const CareerGoals = () => {

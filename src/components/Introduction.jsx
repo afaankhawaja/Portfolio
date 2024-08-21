@@ -1,5 +1,4 @@
 import React from 'react'
-import Mygif from '../assets/images/Mygif.gif'
 import mysvg from '../assets/images/mysvg.svg'
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
 
