@@ -1,0 +1,24 @@
+npm create vite@latest
+npm create vite@latest
+
+cd your-project-name
+
+npm install
+
+npm run dev
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+tailwind.confih.js {
+    content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+}
+
+index.css{
+    @tailwind base;
+@tailwind components;
+@tailwind utilities;
+}
