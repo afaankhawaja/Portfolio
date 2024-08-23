@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <motion.div 
-      className="w-full h-full bg-black border-1 md:bg-gray-800 text-white flex flex-col items-center py-40" 
+      className="w-full h-full bg-gray-800 border-1 md:bg-gray-800 text-white flex flex-col items-center py-40" 
       initial={{ x: '-100%' }}
       animate={{ x: 0 }}
       transition={{ type: 'spring', stiffness: 100, damping: 20 }}
@@ -34,7 +34,7 @@ const Sidebar = () => {
         </a>
       </div>
 
-      <motion.ul className="mt-8 space-y-16 md:space-y-12 w-full px-4 text-center">
+      <motion.ul className="mt-36 space-y-16 md:space-y-12 w-full px-4 text-center">
         {['Home', 'About', 'Contact', 'Resume', 'Portfolio'].map((item, index) => (
           <motion.li
             key={index}
