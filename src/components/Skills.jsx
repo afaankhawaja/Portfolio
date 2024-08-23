@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div>
         <section id="skills" className="w-full">
-  <h2 className="text-2xl md:text-3xl md:text-center -mx-14 font-bold mb-6 text-blue-400">Skills <span >& </span>Strengths</h2>
+  <h2 className="text-2xl text-center md:text-3xl md:text-center -mx-14 font-bold mb-6 text-blue-400">Skills <span >& </span>Strengths</h2>
   
   <div className="flex flex-col w-36 space-y-6 -ml-6 md:w-full md:ml-0" >
     {/* React */}

@@ -34,7 +34,7 @@ const Sidebar = () => {
         </a>
       </div>
 
-      <motion.ul className="mt-8 space-y-16 md:space-y-12 w-full">
+      <motion.ul className="mt-8 space-y-16 md:space-y-12 w-full px-4 text-center">
         {['Home', 'About', 'Contact', 'Resume', 'Portfolio'].map((item, index) => (
           <motion.li
             key={index}
@@ -45,7 +45,7 @@ const Sidebar = () => {
             <NavLink
               to={`/${item.toLowerCase()}`}
               className={({ isActive }) =>
-                `flex justify-center items-center text-lg md:text-xl px-4 py-2 relative ${
+                `flex justify-center items-center text-sm md:text-xl px-4 py-2 relative ${
                   isActive ? 'text-blue-400' : 'text-white'
                 }`
               }

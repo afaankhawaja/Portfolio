@@ -136,11 +136,11 @@
 
 @media screen and (max-width: 640px) {
   .timeline {
-    width: 250px;
+    width: 240px;
   }
   .timeline-header {
     /* text-align: center; */
-    padding-left: 65px;
+    padding-left: 55px;
     /* padding-right: 34px; */
     color: #3498db;
     font-size: 25px;
@@ -149,13 +149,13 @@
   }
 
   .timeline::after {
-    left: 10px;
+    left: 5px;
   }
   
   .timeline-item {
     width: 100%;
-    padding-left: 40px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 30px;
   }
   
   .timeline-item::before {
