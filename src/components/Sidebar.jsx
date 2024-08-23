@@ -34,7 +34,7 @@ const Sidebar = () => {
         </a>
       </div>
 
-      <motion.ul className="mt-36 space-y-16 md:space-y-12 w-full px-4 text-center">
+      <motion.ul className="mt-36 md:mt-16 space-y-16 md:space-y-12 w-full px-4 text-center">
         {['Home', 'About', 'Contact', 'Resume', 'Portfolio'].map((item, index) => (
           <motion.li
             key={index}
