@@ -8,8 +8,8 @@
 
 .timeline-header {
   text-align: center;
-  color: blue;
-  font-size: 2.5rem;
+  color: #3498db;
+  font-size: 2.8rem;
   margin-bottom: 40px;
   font-weight: bold;
 }
@@ -135,13 +135,26 @@
 }
 
 @media screen and (max-width: 640px) {
+  .timeline {
+    width: 250px;
+  }
+  .timeline-header {
+    /* text-align: center; */
+    padding-left: 65px;
+    /* padding-right: 34px; */
+    color: #3498db;
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
   .timeline::after {
-    left: 31px;
+    left: 10px;
   }
   
   .timeline-item {
     width: 100%;
-    padding-left: 70px;
+    padding-left: 40px;
     padding-right: 25px;
   }
   
@@ -158,5 +171,15 @@
   
   .right {
     left: 0%;
+  }
+  .timeline-item::after{
+  content: none;
+    
+  }
+  .left::before{
+    content: none;
+  }
+  .right::before{
+    content: none;
   }
 }

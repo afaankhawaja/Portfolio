@@ -37,11 +37,11 @@ const Contact = () => {
 
   return (
     <div>
-      <section className="-mt-52 w-full h-full rounded-lg dark:bg-gray-900">
+      <section className="-mt-52 w-full h-full rounded-lg  dark:bg-gray-900">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-blue-400 dark:text-white">Contact Us</h2>
-          <p className="mb-6 lg:mb-16 font-mono text-center text-white dark:text-gray-400 sm:text sm:text-lg">Got a technical issue? Need details about my services? Let's talk.</p>
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <h2 className="mb-4 -mx-6 text-2xl tracking-tight font-extrabold text-center text-blue-400 md:text-3xl dark:text-white">Contact Me</h2>
+          <p className="mb-6 font-mono text-center text-white dark:text-gray-400 -ml-8 -mr-8">Got a technical issue? Need details about my services? Let's talk.</p>
+          <form onSubmit={handleSubmit} className="space-y-4 mt-8 text-center md:text-left -ml-8 -mr-8">
             <div>
               <label htmlFor="email" className="block mb-2 text-sm font-bold text-gray-300 dark:text-gray-300">Your email</label>
               <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@gmail.com" required />
@@ -58,7 +58,7 @@ const Contact = () => {
           </form>
         </div>
       </section>
-      <div className="sm:ml-16 mt-8 lg:ml-64 lg:pl-8 -mb-24 flex space-x-14">
+      <div className="mt-8 md:ml-64 md:pl-8 -ml-4 -mb-24 flex md:space-x-20 space-x-6">
         <a href="https://wa.me/923058668903?text=Hello,%20I%20am%20interested%20in%20your%20portfolio" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp className="text-5xl text-blue-400 hover:text-green-500 transition ease-in-out duration-300" />
         </a>

@@ -6,14 +6,14 @@ const CareerGoals = () => {
   const toggleModal = () => setIsModalOpen(!isModalOpen);
 
   return (
-    <div className="my-8 relative">
-      <h2 className="sm:text-left sm:pl-10 text-3xl font-bold text-center mb-8 text-blue-400">Career Goals</h2>
+    <div className="my-8 -mx-6 md:-mx-10 relative">
+      <h2 className="-mx-10 text-2xl md:text-3xl font-bold text-center mb-8 text-blue-400">Career Goals</h2>
       
-      <div className="relative pl-10 ">
+      <div className="relative pl-2 md:pl-8 ">
         <div className="absolute sm:left-6 left-0 top-0 h-full w-1 bg-blue-400"></div>
         
         <p className=" mb-4 text-lg text-blue-100">
-          "My ultimate goal is to become a proficient full-stack developer who can tackle complex challenges and contribute to impactful projects..."
+          "My ultimate goal is to become a proficient full-stack developer who can tackle complex challenges and contribute to impactful projects...
         </p>
 
         <button 
@@ -26,7 +26,7 @@ const CareerGoals = () => {
 
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="sm:w-1/2 bg-gray-800 p-8 rounded-lg max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto transform translate-x-28">
+          <div className="w-1/2 bg-gray-800 p-8 rounded-lg max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto transform translate-x-12 md:translate-x-24">
             <h3 className=" text-2xl font-bold text-blue-400 mb-4">Career Goals</h3>
             <p className="mb-4 text-lg text-blue-100">
               "My ultimate goal is to become a proficient full-stack developer who can tackle complex challenges and contribute to impactful projects. I aim to constantly improve my skills in both front-end and back-end development.

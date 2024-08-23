@@ -3,7 +3,7 @@ import { FaLink } from 'react-icons/fa';
 
 const ProjectCard = ({ title, imageUrl, projectUrl }) => {
   return (
-    <div className="relative w-full  max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
+    <div className="relative w-full max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-500 hover:scale-105">
       <div className="relative group">
         <img src={imageUrl} alt={title} className="w-full h-56 object-cover" />
         <div className="absolute  inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
@@ -47,7 +47,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
+    <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 -mx-4 text-center">
       {projects.map((project, index) => (
         <ProjectCard
           key={index}

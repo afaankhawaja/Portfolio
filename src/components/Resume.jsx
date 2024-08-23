@@ -4,7 +4,7 @@ import Education from './Education'
 
 const Resume = () => {
   return (
-    <div className=' -mt-52 -ml-8 py-2 '>
+    <div className=' -mt-52 -ml-16 py-2 '>
         <Timeline/>
         <Education/>
     </div>
