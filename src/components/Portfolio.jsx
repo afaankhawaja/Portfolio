@@ -29,7 +29,7 @@ const Portfolio = () => {
     {
       title: 'Redux store',
       imageUrl: 'https://cdn.pixabay.com/photo/2020/04/12/10/57/store-5033746_1280.png',
-      projectUrl: 'https://redux-store-alpha.vercel.app/',
+      projectUrl: 'https://redux-store-ui.netlify.app/',
     },
     ,
     {
